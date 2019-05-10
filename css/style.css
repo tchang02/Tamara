@@ -1,0 +1,142 @@
+html{
+  font-size: 15px;
+}
+
+body{
+  background-color: #FFE4E1;
+
+  margin: 0px;
+}
+
+/* .center { */
+  /* width: 20px; */
+  /* height:30px; */
+  /* background-color: #6495ED; */
+  /* text-align: center; */
+/* } */
+.landing{
+box-sizing: border-box;
+background-image: linear-gradient(MistyRose, MistyRose, tan);
+margin-bottom: 0px;
+
+}
+
+h1{
+  font-family: sans-serif;
+  font-size: 3em;
+  margin-top: 35vh;
+
+}
+
+p{
+box-sizing: border-box;
+background: DarkSlateGrey;
+padding-bottom: 200px;
+margin: 0px;
+
+
+}
+
+.arrow{
+  width:100px;
+  padding-top: 800px;
+  padding-left: 1300px;
+  padding-bottom: 80px;
+}
+
+.icon{
+  width: 400px;
+  padding-left: 200px;
+  padding-top: 300px;
+
+}
+.desert{
+  width: 500px;
+  padding-left: 150px;
+  padding-top: 700px;
+
+}
+
+.page-desert{
+width: 390px;
+padding-top: 80px;
+padding-left: 100px;
+
+}
+
+.marsh{
+  width: 500px;
+  padding-left: 900px;
+  padding-bottom: 600px;
+}
+
+.flower{
+  width:400px;
+  padding-left: 200px;
+  padding-top: 150px;
+}
+
+.dental{
+  width: 400px;
+  padding-left:20px;
+  padding-top: 650px;
+
+}
+
+.beer{
+  width: 400px;
+  padding-left: 1000px;
+  padding-top: 2px;
+
+}
+.grocery{
+  width: 400px;
+  padding-left: 40px;
+  padding-top: -15px;
+}
+
+.statue{
+  width: 400px;
+  padding-left: 800px;
+  padding-top: 0px;
+
+}
+.temple{
+  width: 400px;
+  padding-left: 300px;
+  padding-top: 40px;
+
+}
+
+.sky{
+  width: 600px;
+  padding-left: 600px;
+  padding-top: 600px;
+
+}
+
+.exit{
+  width:80px;
+  padding-left: 1300px;
+  padding-top: 200px;
+  padding-bottom: 80px;
+}
+
+.box-tan{
+  box-sizing: border-box;
+  margin-top: 0;
+  background-image: linear-gradient(Tan, Tan,Tan, DarkSlateGrey);
+  padding-bottom: 300px;
+
+
+}
+.box-blue{
+  box-sizing: border-box;
+  background-image: linear-gradient(DarkSlateGrey, DarkSlateGrey,Seagreen,Chocolate, Chocolate, Tan);
+  padding-bottom: 400px;
+
+}
+
+.box-pink{
+  box-sizing: border-box;
+  background-image: linear-gradient(Tan, Tan, MistyRose);
