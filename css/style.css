@@ -2,141 +2,563 @@ html{
   font-size: 15px;
 }
 
-body{
-  background-color: #FFE4E1;
+body {
+}
+.wrapper1{
 
+  width: 10000px;
+
+}
+
+/*.wrapper2{
+  float: left;
+  position: relative;
+  width: 5000px;
   margin: 0px;
+  background-color: Black;
 }
-
-/* .center { */
-  /* width: 20px; */
-  /* height:30px; */
-  /* background-color: #6495ED; */
-  /* text-align: center; */
-/* } */
-.landing{
-box-sizing: border-box;
-background-image: linear-gradient(MistyRose, MistyRose, tan);
-margin-bottom: 0px;
-
+.wrapper3{
+  float: left;
+  position: relative;
+  width: 2000px;
+  margin: 0px;
+  background-color: Linen;
 }
+*/
 
-h1{
-  font-family: sans-serif;
-  font-size: 3em;
-  margin-top: 35vh;
+.container{
 
-}
-
-p{
-box-sizing: border-box;
-background: DarkSlateGrey;
-padding-bottom: 200px;
-margin: 0px;
+  background-image: black;
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 0px;
+  padding-right: 200px;
+  padding-bottom: 200px;
+  box-sizing:8000px;
 
 
 }
 
-.arrow{
-  width:100px;
-  padding-top: 800px;
-  padding-left: 1300px;
-  padding-bottom: 80px;
+.container:hover{
+ transition: .5s ease;
 }
 
-.icon{
-  width: 400px;
-  padding-left: 200px;
-  padding-top: 300px;
-
-}
-.desert{
-  width: 500px;
-  padding-left: 150px;
-  padding-top: 700px;
-
+.one, .two, .three, .four, .five, .six{
+  position: absolute;
 }
 
-.page-desert{
-width: 390px;
-padding-top: 80px;
-padding-left: 100px;
+  .one{
+    top: 250px;
+    left: 450px;
+    z-index: 10;
+    filter: blur(20px);
+
+  }
+
+  .one:hover{
+   filter: none;
+   z-index: 999;
+   transition: 8s ease;
+  }
+
+  .two{
+    top: 300px;
+    left: 400px;
+    z-index: 20;
+    filter: blur(16px);
+
+
+  }
+
+  .two:hover{
+   filter: none;
+   z-index: 999;
+   transition: 4s ease;
+  }
+
+  .three{
+    top: 350px;
+    left: 350px;
+    z-index: 30;
+    filter: blur(12px);
+
+  }
+
+  .three:hover{
+   filter: none;
+   z-index: 999;
+   transition: 2s ease;
+  }
+
+  .four{
+    top: 400px;
+    left: 300px;
+    z-index: 40;
+    filter: blur(8px);
+  }
+
+  .four:hover{
+   filter: none;
+   z-index: 999;
+   transition: 0.8s ease;
+  }
+
+
+  .five{
+    top: 450px;
+    left: 250px;
+    z-index: 50;
+    filter: blur(4px);
+  }
+
+  .five:hover{
+   filter: none;
+   z-index: 999;
+   transition: 0.2s ease;
+  }
+
+  .six{
+    top: 500px;
+    left: 200px;
+    z-index: 60;
+
+  }
+
+
+.seven, .eight, .nine, .ten, .eleven, .twelve{
+  position: absolute;
+}
+
+  .seven{
+    top: 0px;
+    left: 1200px;
+    z-index: 120;
+  }
+
+  .eight{
+    top: 40px;
+    left: 1250px;
+    z-index: 100;
+    filter: blur(4px)
+  }
+  .eight:hover{
+   filter: none;
+   z-index: 999;
+   transition: 0.1s ease;
+  }
+
+  .nine{
+    top: 80px;
+    left: 1300px;
+    z-index: 80;
+    filter: blur(4px)
+  }
+  .nine:hover{
+   filter: none;
+   z-index: 999;
+   transition: 0.8s ease;
+  }
+
+  .ten{
+    top: 120px;
+    left: 1350px;
+    z-index: 60;
+    filter: blur(8px)
+  }
+
+  .ten:hover{
+   filter: none;
+   z-index: 999;
+   transition: 1.5s ease;
+  }
+
+  .eleven{
+    top: 160px;
+    left: 1400px;
+    z-index: 40;
+    filter: blur(12px)
+  }
+
+  .eleven:hover{
+   filter: none;
+   z-index: 999;
+   transition: 4s ease;
+  }
+
+  .twelve{
+    top: 200px;
+    left: 1450px;
+    z-index: 20;
+    filter: blur(16px);
+  }
+  .twelve:hover{
+   filter: none;
+   z-index: 999;
+   transition: 8s ease;
+  }
+
+.thirteen, .fourteen, .fifteen, .sixteen, .seventeen{
+  position: absolute;
 
 }
 
-.marsh{
-  width: 500px;
-  padding-left: 900px;
-  padding-bottom: 600px;
+  .thirteen{
+    top: 740px;
+    left: 2100px;
+    z-index: 120;
+  }
+
+  .fourteen{
+    top: 800px;
+    left: 2140px;
+    z-index: 90;
+    filter: blur(4px);
+  }
+  .fourteen:hover{
+   filter: none;
+   z-index: 999;
+   transition: 0.2s ease;
+  }
+
+  .fifteen{
+    top: 860px;
+    left: 2180px;
+    z-index: 80;
+    filter: blur(8px);
+  }
+  .fifteen:hover{
+   filter: none;
+   z-index: 999;
+   transition: 1s ease;
+  }
+
+  .sixteen{
+    top: 920px;
+    left: 2220px;
+    z-index: 50;
+    filter: blur(12px);
+  }
+  .sixteen:hover{
+   filter: none;
+   z-index: 999;
+   transition: 4s ease;
+  }
+
+  .seventeen{
+    top: 980px;
+    left: 2260px;
+    z-index: 30;
+    filter: blur(16px);
+
+  }
+  .seventeen:hover{
+   filter: none;
+   z-index: 999;
+   transition: 8s ease;
+  }
+
+.eighteen, .nineteen, .twenty, .twentyone, .twentytwo,
+.twentythree, .twentyfour{
+  position: absolute;
 }
 
-.flower{
-  width:400px;
-  padding-left: 200px;
-  padding-top: 150px;
+.eighteen{
+  top: 700px;
+  left: 3500px;
+  z-index: 10;
+  filter: blur(20px);
 }
 
-.dental{
-  width: 400px;
-  padding-left:20px;
-  padding-top: 650px;
+.eighteen:hover{
+ filter: none;
+ z-index: 999;
+ transition: 8s ease;
+}
+
+.nineteen{
+  top: 750px;
+  left: 3450px;
+  z-index: 20;
+  filter: blur(16px);
+}
+
+.nineteen:hover{
+ filter: none;
+ z-index: 999;
+ transition: 4s ease;
+}
+
+.twentyone{
+  top: 800px;
+  left: 3400px;
+  z-index: 40;
+  filter: blur(12px);
+}
+
+.twentyone:hover{
+ filter: none;
+ z-index: 999;
+ transition: 2s ease;
+}
+
+.twentytwo{
+  top: 850px;
+  left: 3350px;
+  z-index: 50;
+  filter: blur(8px);
+}
+
+.twentytwo:hover{
+ filter: none;
+ z-index: 999;
+ transition: 0.8s ease;
+}
+
+.twentythree{
+  top: 900px;
+  left: 3300px;
+  z-index: 60;
+  filter: blur(4px);
+}
+
+.twentythree:hover{
+ filter: none;
+ z-index: 999;
+ transition: 0.2s ease;
+}
+
+.twentyfour{
+  top: 950px;
+  left: 3250px;
+  z-index: 70;
 
 }
 
-.beer{
-  width: 400px;
-  padding-left: 1000px;
-  padding-top: 2px;
-
-}
-.grocery{
-  width: 400px;
-  padding-left: 40px;
-  padding-top: -15px;
+.twentyfive, .twentysix, .twentyseven, .twentyeight, .twentynine,
+.thirty{
+  position: absolute;
 }
 
-.statue{
-  width: 400px;
-  padding-left: 800px;
-  padding-top: 0px;
-
-}
-.temple{
-  width: 400px;
-  padding-left: 300px;
-  padding-top: 40px;
+.twentyfive{
+  top: 1600px;
+  left: 3450px;
+  z-index: 100;
 
 }
 
-.sky{
-  width: 600px;
-  padding-left: 600px;
-  padding-top: 600px;
-
+.twentysix{
+  top: 1640px;
+  left: 3500px;
+  z-index: 90;
+  filter: blur(4px);
 }
 
-.exit{
-  width:80px;
-  padding-left: 1300px;
-  padding-top: 200px;
-  padding-bottom: 80px;
+.twentysix:hover{
+ filter: none;
+ z-index: 999;
+ transition: 0.2s ease;
 }
 
-.box-tan{
-  box-sizing: border-box;
-  margin-top: 0;
-  background-image: linear-gradient(Tan, Tan,Tan, DarkSlateGrey);
-  padding-bottom: 300px;
-
-
-}
-.box-blue{
-  box-sizing: border-box;
-  background-image: linear-gradient(DarkSlateGrey, DarkSlateGrey,Seagreen,Chocolate, Chocolate, Tan);
-  padding-bottom: 400px;
-
+.twentyseven{
+  top: 1680px;
+  left: 3550px;
+  z-index: 80;
+  filter: blur(8px);
 }
 
-.box-pink{
-  box-sizing: border-box;
-  background-image: linear-gradient(Tan, Tan, MistyRose);
+.twentyseven:hover{
+ filter: none;
+ z-index: 999;
+ transition: 1s ease;
+}
+
+.twentyeight{
+  top: 1720px;
+  left: 3600px;
+  z-index: 70;
+  filter: blur(12px);
+}
+.twentyeight:hover{
+ filter: none;
+ z-index: 999;
+ transition: 4s ease;
+}
+
+.twentynine{
+  top: 1760px;
+  left: 3650px;
+  z-index: 60;
+  filter: blur(16px);
+}
+
+.twentynine:hover{
+ filter: none;
+ z-index: 999;
+ transition: 6s ease;
+}
+
+.thirty{
+  top: 1800px;
+  left: 3700px;
+  z-index: 50;
+  filter: blur(20px);
+}
+
+.thirty:hover{
+ filter: none;
+ z-index: 999;
+ transition: 8s ease;
+}
+
+.thirtyone, .thirtytwo, .thirtythree, .thirtyfour, .thirtyfive,
+.thirtysix, .thirtyseven{
+  position: absolute;
+}
+
+  .thirtyone{
+    top: 950px;
+    left: 4400px;
+    z-index: 100;
+  }
+
+  .thirtytwo{
+    top: 900px;
+    left: 4450px;
+    z-index: 90;
+    filter: blur(4px);
+  }
+
+  .thirtytwo:hover{
+   filter: none;
+   z-index: 999;
+   transition: 0.2s ease;
+  }
+
+  .thirtythree{
+    top: 850px;
+    left: 4500px;
+    z-index: 80;
+    filter: blur(8px);
+  }
+
+  .thirtythree:hover{
+   filter: none;
+   z-index: 999;
+   transition: 1s ease;
+  }
+
+  .thirtyfour{
+    top: 800px;
+    left: 4550px;
+    z-index: 70;
+    filter: blur(12px);
+  }
+
+  .thirtyfour:hover{
+   filter: none;
+   z-index: 999;
+   transition: 4s ease;
+  }
+
+  .thirtyfive{
+    top: 750px;
+    left: 4600px;
+    z-index: 60;
+    filter: blur(16px);
+  }
+
+  .thirtyfive:hover{
+   filter: none;
+   z-index: 999;
+   transition: 6s ease;
+  }
+
+  .thirtysix{
+    top: 700px;
+    left: 4650px;
+    z-index: 50;
+    filter: blur(20px);
+  }
+
+  .thirtysix:hover{
+   filter: none;
+   z-index: 999;
+   transition: 8s ease;
+  }
+
+  .thirtyseven, .thirtyeight, .thirtynine, .forty,
+  .fortyone, .fortytwo {
+    position: absolute;
+  }
+
+  .thirtyseven{
+    top: 700px;
+    left: 5600px;
+    z-index: 100;
+
+  }
+
+  .thirtyeight{
+    top: 750px;
+    left: 5650px;
+    z-index: 90;
+    filter: blur(4px);
+  }
+
+  .thirtyeight:hover{
+   filter: none;
+   z-index: 999;
+   transition: 0.2s ease;
+  }
+
+  .thirtynine{
+    top: 800px;
+    left: 5700px;
+    z-index: 80;
+    filter: blur(8px);
+  }
+
+  .thirtynine:hover{
+   filter: none;
+   z-index: 999;
+   transition: 1s ease;
+  }
+
+  .forty{
+    top: 850px;
+    left: 5750px;
+    z-index: 70;
+    filter: blur(12px);
+  }
+
+  .forty:hover{
+   filter: none;
+   z-index: 999;
+   transition: 4s ease;
+  }
+
+  .fortyone{
+    top: 900px;
+    left: 5800px;
+    z-index: 60;
+    filter: blur(16px);
+  }
+
+  .fortyone:hover{
+   filter: none;
+   z-index: 999;
+   transition: 6s ease;
+  }
+
+  .fortytwo{
+    top: 950px;
+    left: 5850px;
+    z-index: 50;
+    margin-right: 400px;
+    filter: blur(20px);
+  }
+  .fortytwo:hover{
+   filter: none;
+   z-index: 999;
+   transition: 8s ease;
+  }
